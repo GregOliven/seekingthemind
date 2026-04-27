@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact Us | Seeking the Mind</title>
+  <meta
+    name="description"
+    content="Contact Seeking the Mind Behind the Invisible Hand."
+  />
+
+  <style>
+    :root {
+      --text: #2f343a;
+      --muted: #777777;
+      --green: #0f652a;
+      --green-dark: #0b4d20;
+      --link: #3c9b00;
+      --line: #d7d7d7;
+      --page-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    .site {
+      width: min(var(--page-width), calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding-top: 36px;
+    }
+
+    .logo {
+      padding-left: 36px;
+      margin-bottom: 48px;
+    }
+
+    .logo h1 {
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .logo h1 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .logo h2 {
+      margin: 6px 0 0;
+      color: #777777;
+      font-size: clamp(1.1rem, 2.4vw, 1.75rem);
+      line-height: 1.25;
+      font-weight: 400;
+      letter-spacing: -0.04em;
+    }
+
+    .hero {
+      width: 100%;
+      height: 290px;
+      background: #d6d6d6 url("images/landscape.jpg") center center / cover no-repeat;
+      margin-bottom: 8px;
+    }
+
+    nav {
+      background: linear-gradient(#157232, var(--green-dark));
+      min-height: 64px;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0;
+      margin: 0;
+      padding: 0 44px;
+      list-style: none;
+    }
+
+    nav a {
+      display: block;
+      padding: 17px 34px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) 360px;
+      gap: 72px;
+      padding: 42px 16px 36px;
+    }
+
+    h2 {
+      margin: 0 0 32px;
+      color: var(--text);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+      font-weight: 500;
+      letter-spacing: -0.06em;
+    }
+
+    p {
+      margin: 0 0 28px;
+      font-size: clamp(1.1rem, 2vw, 1.45rem);
+      line-height: 1.65;
+      letter-spacing: 0.02em;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    aside h2 {
+      margin-bottom: 48px;
+    }
+
+    aside ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    aside li li {
+      border-bottom: 1px dotted #999999;
+    }
+
+    aside a {
+      display: block;
+      padding: 5px 0;
+      color: var(--link);
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    aside a:hover,
+    aside a:focus {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 24px 0 40px;
+      color: #888888;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 4px 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer a {
+      color: var(--link);
+    }
+
+    @media (max-width: 850px) {
+      .site {
+        width: min(100% - 28px, var(--page-width));
+      }
+
+      .logo {
+        padding-left: 0;
+        margin-bottom: 28px;
+      }
+
+      .hero {
+        height: 180px;
+      }
+
+      nav ul {
+        padding: 0;
+      }
+
+      nav a {
+        padding: 14px 18px;
+        font-size: 1rem;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+        gap: 36px;
+        padding: 32px 0;
+      }
+
+      h2 {
+        margin-bottom: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site">
+    <header>
+      <div class="logo">
+        <h1><a href="index.html">Seeking the Mind Behind the Invisible Hand</a></h1>
+        <h2>A Christian's Pilgrimage Through the Land of Commerce</h2>
+      </div>
+
+      <div class="hero" role="img" aria-label="Landscape panorama"></div>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="philosophy.html">Our Philosophy</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>How to Contact Us</h2>
+
+        <p>
+          We are not an organization. You can direct your emails, questions, and ideas to
+          <a href="mailto:info@seekingthemind.com">info@seekingthemind.com</a>
+          and Lyubomira Buresch will respond to you.
+        </p>
+      </article>
+
+      <aside aria-label="Links">
+        <h2>Links</h2>
+
+        <ul>
+          <li><a href="http://www.ezekielsplace.com/">Ezekiel's Place</a></li>
+          <li><a href="http://www.arocha.org/">Arocha</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2011 - Lyubomira Buresch</p>
+      <p>
+        Courtesy <a href="http://www.openwebdesign.org/" target="_blank" rel="noopener">OWD</a>,
+        Thanks to <a href="http://www.ecommercewebsites.com.au/" target="_blank" rel="noopener">Web Design</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
