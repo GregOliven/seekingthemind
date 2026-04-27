@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Resources | Seeking the Mind</title>
+  <meta
+    name="description"
+    content="Resources for Seeking the Mind Behind the Invisible Hand, including the essay PDF and Thanksgiving 2014 reflection."
+  />
+
+  <style>
+    :root {
+      --text: #2f343a;
+      --muted: #777777;
+      --green: #0f652a;
+      --green-dark: #0b4d20;
+      --link: #3c9b00;
+      --line: #d7d7d7;
+      --page-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    .site {
+      width: min(var(--page-width), calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding-top: 36px;
+    }
+
+    .logo {
+      padding-left: 36px;
+      margin-bottom: 48px;
+    }
+
+    .logo h1 {
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .logo h1 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .logo h2 {
+      margin: 6px 0 0;
+      color: #777777;
+      font-size: clamp(1.1rem, 2.4vw, 1.75rem);
+      line-height: 1.25;
+      font-weight: 400;
+      letter-spacing: -0.04em;
+    }
+
+    .hero {
+      width: 100%;
+      height: 290px;
+      background: #d6d6d6 url("images/landscape.jpg") center center / cover no-repeat;
+      margin-bottom: 8px;
+    }
+
+    nav {
+      background: linear-gradient(#157232, var(--green-dark));
+      min-height: 64px;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0;
+      margin: 0;
+      padding: 0 44px;
+      list-style: none;
+    }
+
+    nav a {
+      display: block;
+      padding: 17px 34px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) 360px;
+      gap: 72px;
+      padding: 42px 16px 36px;
+    }
+
+    .post {
+      margin-bottom: 56px;
+    }
+
+    h2 {
+      margin: 0 0 32px;
+      color: var(--text);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+      font-weight: 500;
+      letter-spacing: -0.06em;
+    }
+
+    p {
+      margin: 0 0 28px;
+      font-size: clamp(1.1rem, 2vw, 1.45rem);
+      line-height: 1.65;
+      letter-spacing: 0.02em;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    blockquote {
+      margin: 28px 0 32px 28px;
+      padding-left: 24px;
+      border-left: 4px solid var(--line);
+      color: #555555;
+      font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+      line-height: 1.65;
+      font-style: italic;
+    }
+
+    aside h2 {
+      margin-bottom: 48px;
+    }
+
+    aside ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    aside li li {
+      border-bottom: 1px dotted #999999;
+    }
+
+    aside a {
+      display: block;
+      padding: 5px 0;
+      color: var(--link);
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    aside a:hover,
+    aside a:focus {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 24px 0 40px;
+      color: #888888;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 4px 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer a {
+      color: var(--link);
+    }
+
+    @media (max-width: 850px) {
+      .site {
+        width: min(100% - 28px, var(--page-width));
+      }
+
+      .logo {
+        padding-left: 0;
+        margin-bottom: 28px;
+      }
+
+      .hero {
+        height: 180px;
+      }
+
+      nav ul {
+        padding: 0;
+      }
+
+      nav a {
+        padding: 14px 18px;
+        font-size: 1rem;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+        gap: 36px;
+        padding: 32px 0;
+      }
+
+      h2 {
+        margin-bottom: 24px;
+      }
+
+      blockquote {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site">
+    <header>
+      <div class="logo">
+        <h1><a href="index.html">Seeking the Mind Behind the Invisible Hand</a></h1>
+        <h2>A Christian's Pilgrimage Through the Land of Commerce</h2>
+      </div>
+
+      <div class="hero" role="img" aria-label="Landscape panorama"></div>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="philosophy.html">Our Philosophy</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section class="post">
+          <h2>The Essay</h2>
+
+          <p>Click <a href="SeekingtheMindv9v1.pdf">here</a> to access a PDF version of <em>Seeking the Mind Behind the Invisible Hand</em>.</p>
+        </section>
+
+        <section class="post">
+          <h2>Thanksgiving 2014</h2>
+
+          <p>The leaves have turned into the most glorious fiery colors and almost fallen off the branches, just like they do every year, and just they did on November 24th, 2005. Nine years ago, twenty fourth of November was Thanksgiving, and Matthew left to “go home” to be with our Lord and Savior Jesus Christ. His soul left his body but his legacy of ideas remains as well as our children, whom he called “the jewels in my crown”. He also left his beautiful energy to help me get up and to find the strength to be despite the huge open wound in my heart.</p>
+
+          <p>So what I want to remember today, November 24th, 2014, is Matthew as an incredibly courageous and original thinker who questioned the complacent behavior of the leaders of our society and of Christians alike. Matthew saw through and talked about the risky behavior of lending institutions a long time prior to the housing collapse, of the excesses, of the indiscriminate borrowing at the personal and institutional level, and the rising moral hazards. Matthew was salt and light, he was a voice that disturbed with the penetrating questions that he was unafraid to raise. He was getting increasingly concerned that Christians are abandoning their leadership role when it is most needed – in times of great uncertainty and ambiguity. Matthew put in many hours of writing, revising, sharing, editing an essay called, Seeking The Mind Behind the Invisible Hand. Although he always viewed it as a working draft, I posted the essay on this website so minds and souls that seek could meet Matthew’s mind in his writing.</p>
+
+          <p>Matthew shared his essay, but his message was tough to swallow so not too many people were interested to discuss it further. And he knew that and accepted it but did not give up working on the essay and thinking about the issues. His essay was making people uncomfortable because it was highlighting a troubling trend – the market had become the new moral compass of our society and of us, as Christians. He was concerned that Christians in mainstream business were acting under the assumption that political systems and markets are morally self-correcting. Matthew was increasingly getting alarmed when he kept hearing that it would be inappropriate for Christians to apply Christian values to the market.</p>
+
+          <blockquote>
+            “As one evangelical Christian corporate lawyer put it, the laws governing the market are fundamentally sound; his job is to simply play his advocacy role and the legal system and market will ensure justice. These views represent partial truths that have been elevated to the level of “sacred cows.” … When we Christians lose our will to question, doubt, and challenge the assumptions of our age, are we not falling asleep both mentally and morally amidst our affluence and becoming accomplices in the decline of our civilization? Are we also not in danger of becoming Christian Pharisees that … effectively turn into persecutors of Christ and the Holy Spirit in the world?”
+          </blockquote>
+
+          <p>There was a small circle of friends and curious minds who engaged with Matthew – by providing edits and thoughts on his essay and engaging in long discussions on this subject. There were others who gave him an opportunity to put together weekend classes and retreats where Matthew would lead small groups of people to brainstorm how they might organize and establish a business on a different value system that is not at odds but in harmony with our faith. Matthew was so deeply grateful to those people for their support, and so am I.</p>
+
+          <p>I have experienced the essay in a different way every time I read it. This is not an easy read. This year, more than any other time, I heard Matthew’s cry to me to wake up and to examine my life. I am taking an inventory of the rewards and the costs associated with the dualistic life that I had been living in the name of some illusive stability. One of the ideas he raised rang loud and clear to me – that if people want to face the fundamental moral tension of our time, they need to influence the world of commerce. So this coming year, I will take the small steps toward more conscientious living and working.</p>
+
+          <p>I will challenge myself to keep looking for new ways to create wealth that is not self-serving but is an expression of my faith, and emanates from the fundamental truths revealed to us by God. There is an element of the sacred in the actual act of working by using our God-given talents to support life, and I would like to use my talents to honor that. How we organize ourselves to create and manage wealth has a lasting impact on our individual souls and on the workers, their families and communities. I would like to be the small positive change agent that may add up to something one day.</p>
+
+          <p>Matthew described a vision that calls for the best in humanity and the community in a way that may seem impossible to achieve. He viewed our times as the “spiritual frontier” and a critical moment in history where each one of us should hear Christ’s call to show courage and live up to our faith. In his own words:</p>
+
+          <blockquote>
+            When Jesus was asked, "How hard is it for the rich man to enter the kingdom of heaven?" and responded, "It is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God [Mark 10:22]," the disciples were amazed and asked how could anybody be saved? Jesus responded, "With man this is impossible, but not with God; all things are possible with God." In moments of futility, people need to be reminded that traversing the intangible frontier within the human conscience, calling for the practical application of truth, requires no less faith, courage, sacrifice, and determination than have the harsh, tangible frontiers of geography, science, medicine, and industry.
+          </blockquote>
+
+          <p>Let Matthew’s questions and ideas be seeds that will find fertile soil and grow and blossom into companies and infrastructure that will create a new wave of Christian influence on the world through commerce.</p>
+        </section>
+      </article>
+
+      <aside aria-label="Links">
+        <h2>Links</h2>
+
+        <ul>
+          <li><a href="http://www.ezekielsplace.com/">Ezekiel's Place</a></li>
+          <li><a href="http://www.arocha.org/">Arocha</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2011 - Lyubomira Buresch</p>
+      <p>
+        Courtesy <a href="http://www.openwebdesign.org/" target="_blank" rel="noopener">OWD</a>,
+        Thanks to <a href="http://www.ecommercewebsites.com.au/" target="_blank" rel="noopener">Web Design</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
